@@ -1,10 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif !important;
-    background: black;
-    background-color: background-color: #273039;
-    background-size: contain;
-    background-repeat: repeat;
-    background-attachment: fixed;
+    background: #273039; /* Set the solid color */
     color: white;
     margin: 0;
     padding: 0;
@@ -16,8 +12,8 @@ body {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-
 }
+
 
 html{
 	scroll-behavior: smooth;
