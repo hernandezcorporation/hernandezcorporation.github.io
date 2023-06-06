@@ -4,6 +4,8 @@ body {
     color: white;
     margin: 0;
     padding: 0;
+    padding-bottom:40px;
+    height:100%
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -144,16 +146,12 @@ body::-webkit-scrollbar-thumb {
 
 .footer {
     text-align: center !important;
-    background: #353e4c !important;
     padding: 5px 6px !important;
-    color: #ecf2ff;
-    font-size: 14px !important
-    position: fixed; 
-    bottom: 0;
-}
-
-.footer a {
-    color: #6086f6 !important;
-    text-decoration: none !important;
-    font-weight: bold !important;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    font-size: 14px !important;
+    background: #353e4c !important;
 }
