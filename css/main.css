@@ -149,9 +149,3 @@ body::-webkit-scrollbar-thumb {
     color: #ecf2ff;
     font-size: 14px !important
 }
-
-.footer a {
-    color: #6086f6 !important;
-    text-decoration: none !important;
-    font-weight: bold !important;
-}
