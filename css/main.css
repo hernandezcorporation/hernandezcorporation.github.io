@@ -142,6 +142,10 @@ body::-webkit-scrollbar-thumb {
     font-size: 16px !important;
 }
 
+button.menu-toggle, button.menu-toggle:hover {
+  border-color: transparent;
+}
+
 footer {
     text-align: center !important;
     background: #353e4c !important;
