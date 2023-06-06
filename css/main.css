@@ -148,6 +148,8 @@ body::-webkit-scrollbar-thumb {
     padding: 5px 6px !important;
     color: #ecf2ff;
     font-size: 14px !important
+    position: fixed; 
+    bottom: 0;
 }
 
 .footer a {
