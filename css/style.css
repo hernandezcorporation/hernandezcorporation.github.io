@@ -6,6 +6,10 @@
     --dark: #060315;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -473,4 +477,37 @@
 
 .footer .copyright a {
     color: var(--light);
+}
+
+.section {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.section-title {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.section-content {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
